@@ -12,3 +12,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4) merges the data sets into one data set
 5) for the merged data set calculates the means of each variable grouping the data set by the activities, and subjects
 6) the data from 5) is saved into final dataset file.
+
+
+the final, tidy data set is also attached: means.txt.
