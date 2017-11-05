@@ -61,5 +61,5 @@ TranspData <- melt(AllData, id = c("Subject", "ActivityID"))
 Means <- dcast(TranspData, Subject + ActivityID ~ variable, mean)
 
 #export data
-write.table(Means,file='UCI HAR Dataset/Means.txt')
+write.table(Means,file='UCI HAR Dataset/Means.txt',row.name = FALSE)
 
